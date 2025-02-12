@@ -508,9 +508,8 @@ background-size: cover;
 </html>```
 
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
-![สกรีนช็อต 2025-02-12 215233](https://github.com/user-attachments/assets/0c833bd1-a76e-4a39-9715-e49147114024)
+![สกรีนช็อต 2025-02-12 215957](https://github.com/user-attachments/assets/59520cf5-5b7f-4435-b092-778f267b536e)
 
-![สกรีนช็อต 2025-02-12 215338](https://github.com/user-attachments/assets/bbe52618-f1c0-4fc1-b82a-759cdfd7656a)
 
 
 
