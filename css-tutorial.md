@@ -386,9 +386,131 @@ background-size: cover;
 
 ### ผลการทดลอง
 ```html
-[วางโค้ดที่นี่]
-```
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .product-card {
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px #f26ecd;
+    background-color: white;
+    margin: 15px;
+    display: inline-block;
+}
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-info {
+    padding: 15px;
+}
+
+.product-title {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    color: hsl(330, 99%, 68%);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.product-description {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.product-button {
+    display: block;
+    background: linear-gradient(to right, hwb(333 24% 2%), hsl(322, 95%, 70%));
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
+.product-button:hover {
+    background: linear-gradient(to right, hwb(333 24% 2%), hsl(322, 95%, 70%));
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+    </style>
+
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Cards</title>
+        <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <div class="product-card">
+        <div class="product-image" style="background-image: url('images/products/1.jpg');"></div>
+        <div class="product-info">
+            <h2 class="product-title">เค้กสตรอเบอร์รี่</h2>
+            <p class="product-price">฿250</p>
+            <p class="product-description">
+                รายละเอียด สามารถเก็บไว้ในตู้เย็นได้นานถึง 2-4 วัน
+            </p>
+            <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image" style="background-image: url('images/products/2.jpg');"></div>
+        <div class="product-info">
+            <h2 class="product-title">เค้กบลูเบอร์รี่</h2>
+            <p class="product-price">฿225</p>
+            <p class="product-description">
+                รายละเอียด สามารถเก็บไว้ในตู้เย็นได้นานถึง 2-4 วัน
+            </p>
+            <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image" style="background-image: url('images/products/3.jpg');"></div>
+        <div class="product-info">
+            <h2 class="product-title">เค้กช็อกโกแลต</h2>
+            <p class="product-price">฿215</p>
+            <p class="product-description">
+                รายละเอียด สามารถเก็บไว้ในตู้เย็นได้นานถึง 2-4 วัน
+            </p>
+            <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image" style="background-image: url('images/products/4.jpg');"></div>
+        <div class="product-info">
+            <h2 class="product-title">เค้กผลไม้</h2>
+            <p class="product-price">฿350</p>
+            <p class="product-description">
+                รายละเอียด สามารถเก็บไว้ในตู้เย็นได้นานถึง 2-4 วัน
+            </p>
+            <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+        </div>
+    </div>
+</body>
+
+</html>```
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
+![สกรีนช็อต 2025-02-12 215233](https://github.com/user-attachments/assets/b574969d-1fe3-412c-b390-207babefbec7)
+![สกรีนช็อต 2025-02-12 215338](https://github.com/user-attachments/assets/89f8e633-5cc0-47c2-9f7b-91d4614819d2)
+
+
 
 [](#การทดลองที่-4-การจัดการขนาดและระยะห่าง)
 ## การทดลองที่ 4: การจัดการขนาดและระยะห่าง
