@@ -236,13 +236,11 @@ div > p {
 <html>
 <head>
     <style>
-        /* การใช้ Element Selector */
         nav {
             background-color: #ff9ce3;
             padding: 15px;
         }
 
-        /* การใช้ Descendant Selector */
         nav ul {
             list-style: none;
             margin: 0;
@@ -250,25 +248,21 @@ div > p {
             display: flex;
         }
 
-        /* การใช้ Child Selector */
         nav > ul > li {
             margin: 0 10px;
         }
 
-        /* การใช้ Class Selector */
         .menu-item {
             color: rgb(7, 0, 0);
             text-decoration: none;
             padding: 5px 10px;
         }
 
-        /* การใช้ Pseudo-class */
         .menu-item:hover {
             background-color: #96d7fd;
             border-radius: 3px;
         }
 
-        /* การใช้ ID Selector */
         #active {
             background-color: #007bff;
             border-radius: 3px;
