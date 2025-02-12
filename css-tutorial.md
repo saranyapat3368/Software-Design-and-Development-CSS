@@ -1024,12 +1024,155 @@ blockquote {
 
 ### ผลการทดลอง
 ```html
-[วางโค้ด HTML ที่นี่]
-```
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="product-grid">
+        <div class="product-card">
+            <div class="product-image" style="background-image: url('images/products/1.jpg');"></div>
+            <div class="product-details">
+                <h3 class="product-title">เค้กสตรอเบอร์รี่</h3>
+                <div class="product-price">฿250</div>
+                <div class="product-action">
+                    <button class="add-to-cart">เพิ่มลงตะกร้า</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image" style="background-image: url('images/products/2.jpg');"></div>
+            <div class="product-details">
+                <h3 class="product-title">เค้กบลูเบอร์รี่</h3>
+                <div class="product-price">฿240</div>
+                <div class="product-action">
+                    <button class="add-to-cart">เพิ่มลงตะกร้า</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image" style="background-image: url('images/products/3.jpg');"></div>
+            <div class="product-details">
+                <h3 class="product-title">เค้กช็อกโกแลต</h3>
+                <div class="product-price">฿215</div>
+                <div class="product-action">
+                    <button class="add-to-cart">เพิ่มลงตะกร้า</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image" style="background-image: url('images/products/4.jpg');"></div>
+            <div class="product-details">
+                <h3 class="product-title">เค้กผลไม้</h3>
+                <div class="product-price">฿350</div>
+                <div class="product-action">
+                    <button class="add-to-cart">เพิ่มลงตะกร้า</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>```
 ```css
-[วางโค้ด CSS ที่นี่]
+.product-image {
+    background-image: url('images/products/1.jpg');
+
+}
+.product-image {
+    background-image: url('images/products/2.jpg');
+
+}
+.product-image {
+    background-image: url('images/products/3.jpg');
+
+}
+.product-image {
+    background-image: url('images/products/4.jpg');
+
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 4fr));  
+    gap: 12px; 
+    padding: 15px;  
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-image {
+    width: 100%;
+    height: 140px;
+    background-color: #f5f5f5;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-details {
+    padding: 12px; 
+}
+
+.product-title {
+    font-size: 0.875rem; 
+    margin: 0 0 8px 0;  
+    color: #333;
+}
+
+.product-price {
+    font-size: 1rem;  
+    color: hsl(320, 100%, 50%);
+    font-weight: bold;
+}
+
+.product-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px; 
+}
+
+.add-to-cart {
+    background-color: hsl(317, 95%, 76%);
+    color: white;
+    border: none;
+    padding: 5px 10px;  
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: hsl(317, 95%, 76%);
+}
+
+@media (max-width: 768px) {
+    .product-grid {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));  
+    }
+
+    .product-title {
+        font-size: 0.8rem;  
+    }
+
+    .product-price {
+        font-size: 0.9rem;  
+    }
+}
+
 ```
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
+![สกรีนช็อต 2025-02-12 232235](https://github.com/user-attachments/assets/27972ae9-0c9b-4fa6-a485-7690967cc589)
 
 
 ### ตัวอย่างการใช้งาน: การสร้างเลย์เอาต์ Modern Dashboard
