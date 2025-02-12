@@ -508,6 +508,9 @@ background-size: cover;
 </html>
 ```
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
+![สกรีนช็อต 2025-02-12 215957](https://github.com/user-attachments/assets/3ccf6d27-fdff-45fa-a387-938003f66185)
+
+![สกรีนช็อต 2025-02-12 220609](https://github.com/user-attachments/assets/590006d5-54bf-404a-a3aa-241352a0de30)
 
 
 [](#การทดลองที่-4-การจัดการขนาดและระยะห่าง)
